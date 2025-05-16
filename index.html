@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som & Alma</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .div1 .secao{
+            display: flex;
+            align-content: center;
+        }
+
+        .div1{
+            background-color: rgb(255, 255, 255);
+        }
+
+        .navegacao a{
+            color: black;
+            text-decoration: none;
+            margin-left: 70px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            background-color: rgb(255, 141, 200);
+            border-radius: 100px;
+            text-align: center;
+            width: 120px;
+            
+        }
+        
+        nav{
+            margin-left: 130px;
+            margin-top: 50px;
+        }
+        
+        .banner h1{
+            color: white;
+            align-content: center;
+            margin-top:-500px;
+            font-size: 60px;
+            margin-left: 120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 20px 20px 20px black;
+            
+        }
+
+        h2{
+            color: white;
+            align-content: center;
+            margin-top:-2px;
+            font-size: 60px;
+            margin-left: 120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        .presencial{
+            color: rgb(255, 105, 175);
+            align-content: center;
+            margin-top:-2px;
+            font-size: 60px;
+            margin-left: 120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 20px 20px 20px black;
+        }
+         
+        .agende{
+            position: relative;
+            background-color: rgb(255, 66, 129);
+            color: rgb(0, 0, 0);
+            align-content: center;
+            margin-top:8px;
+            font-size: 25px;
+            margin-left: 120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 20px 20px 20px black;
+            display: inline-block;
+            border-radius: 100px;
+            text-decoration: none;
+        }
+        
+        .agende:hover{
+            transform: scale(1.2);
+        }
+        .box h3{
+            position: relative;
+            background-color: rgb(255, 189, 200);
+            margin-top: 210px;
+            width: 280px;
+            text-align: center;
+            margin-left: 150px;
+            height: 350px;
+            border-radius: 20px;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-shadow: 15px 10px 50px #0000007a;
+        }
+        
+        .box2 h3{
+            position: relative;
+            background-color: rgb(255, 189, 200);
+            margin-top: -413px;
+            width: 280px;
+            text-align: center;
+            margin-left: 760px;
+            height: 350px;
+            border-radius: 20px;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-shadow: 15px 10px 50px #0000007a;
+        }
+
+        .violao{
+            position: relative;
+            margin-left: 210px;
+            margin-top: -900px;
+            margin-bottom: 140px;
+            box-shadow: 20px 20px 20 px black;
+        }
+
+        .equipee{
+            position: relative;
+            margin-left: 874px;
+            margin-top: -290px;
+            margin-bottom: 600px;
+        }
+
+        .serv{
+            position: relative; z-index: 10;;
+            margin-top: -510px;
+            margin-left: 173px;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        
+        .equipe{
+            position: relative;
+            margin-left: 810px;
+            margin-top: -30px;
+            margin-bottom: 170px;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .sobre{
+            background-color: rgb(237, 237, 237);
+            height: 900px;
+            margin-bottom: 300px;
+            margin-top: -500px;
+        }
+
+        .titulo{
+            position: relative;
+            padding-top: 510px;
+            color: rgb(255, 48, 100);
+            font-size: 80px;
+            padding-right: 120px;
+            text-shadow: 15px 20px 50px #05040475;
+            margin-left: -2px;
+            margin-left: 50px;
+            
+        }
+
+        .spana{
+            color: rgb(188, 64, 85);
+        }
+
+        .texto{
+            font-size: 20px;
+            margin-left: 340px;
+            margin-top: -150px;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 20px;
+            
+        }
+
+       .blog{
+        color: black;
+        text-align: center;
+        margin-right: 160px;
+        margin-top: -240px;
+       }
+
+       .tecnologia{
+        margin-left: 140px;
+        margin-right: 200px;
+        margin-left: 200px;
+       }
+
+       .tectexto{
+        margin-left: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+       }
+
+       .rodape{
+        background-color: rgb(255, 156, 189);
+        height: 170px;
+        padding-left: 20px;
+        padding-top: 20px;
+       }
+
+       .cursos{
+        text-decoration: none;
+        color: black;
+       }
+
+       .tecnologia{
+        width: 1000px;
+        margin-left: 260px;
+        margin-top: 20px;
+       }
+
+       .pergunta{
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 50px;
+        margin-top: -200px;
+       }
+
+       .bannerf{
+        margin-left: 2px;
+        width: 1550px;
+       }
+
+       .boxes{
+        margin-left: 120px;
+       }
+
+       .seta{
+        width: 100px;
+        border-radius: 20px;
+        margin-bottom: 220px;
+        margin-top: -270px;
+        margin-left: 40px;
+       }
+
+       .seta2{
+        position: relative;
+        width: 100px;
+        border-radius: 20px;
+        margin-bottom: 250px;
+        margin-top: -350px;
+        margin-left: 1380px;
+       }
+
+
+    </style>
+
+    <div class="div1">
+        <section class="secao">
+            <img src="imagens/logo.png" alt="logo ga Som&Alma" width="120px">
+            <nav class="navegacao">
+                <a href="sobrenos.html">Sobre Nós</a>
+                <a href="#Contato">Contato</a>
+                <a href="#Servicos">Serviços</a>
+                <a href="#NossaEquipe">Nossa Equipe</a>
+                <a href="#Clientes">Clientes</a>
+                <a href="index.html">Blog</a>
+            </nav>
+        </section>
+    </div>
+
+    <div>
+        <section class="banner">
+        <img class="bannerf" src="imagens/banner.png" alt="imagem de instrumentos musicais" width="1300px" height="700px">
+            <h1>MATRÍCULAS ABERTAS!</h1>
+            <h2>CURSOS LIVRES</h2>
+            <h2 class="presencial">PRESENCIAL OU ONLINE</h2>
+            <a href="imagens/curso.png" class="agende">AGENDE JÁ A SUA AULA EXPERIMENTAL!</a>
+            </section>
+    </div>
+
+    <div class="boxes">
+    <div class="box">
+        <section>
+        <a href="curso.html" style="position: relative; z-index: 10;">
+            <h3 class="cursos">CURSOS LIVRES</h3>
+            <img src="imagens/violao.png" alt="imagem de um violão" width="200px" class="violao">
+        </a>
+        </section>
+    </div>
+
+    <div class="box2">
+        <section>
+        <h3 class="cursos">NOSSA EQUIPE</h3>
+        <a href="imagens/mao.png" alt="imagem de mãos se cumprimentando" width="100px" class="equipee">></a>
+        <img src="imagens/mao.png" alt="imagem de mãos se cumprimentando" width="100px" class="equipee">
+        </section>
+    </div>
+    
+
+    <section class="serv">
+        <h4>Todos os nossos serviços oferecidos</h4>
+    </section>
+    
+    <div>
+    <section class="equipe">
+        <h4>Apresentando nossa equipe</h4>
+    </section>
+    </div>
+     </div>
+
+    <div class="sobre">
+        <div>
+        <section>
+            <h2 class="titulo">Som & <br><span class="spana">Alma</span></h2>
+        </section>
+        </div>
+        <div class="texto">
+            <h4>Som&Alma - Escola de Música é um espaço dedicado ao ensino musical para todas as idades, com aulas de instrumentos, canto e teoria. A escola conta com professores qualificados e um ambiente acolhedor, incentivando o aprendizado de forma leve e criativa. <br>
+
+Além das aulas, a Som&Alma realiza recitais, oficinas e encontros musicais que fortalecem a confiança dos alunos e a conexão com a arte. O objetivo é formar músicos que toquem não só com técnica, mas com alma.</h4>
+        </div>
+    </div>
+    
+
+    <div>
+        <section>
+            <h2 class="blog">Blog</h2>
+        </section>
+    </div>
+
+    <div>
+        <img class="tecnologia" src="imagens/blog.png" alt="imagem de componentes tecnológicos" width="300px">
+    </div>
+
+    <div class="setas">
+        <img class="seta" src="IMAGENS/seta.png" alt="">
+        <img class="seta2" src="IMAGENS/seta2.png" alt="">
+    </div>
+
+    <br><br><br><br><br>
+
+    <footer class="rodape">
+        <br>
+        <h4>Rua Barão do Rio Branco, 2629</h4><br><br>
+        <h4>Telefone:(18)93300-9774</h4> <br><br>
+        <h4>Instagram:almaesom_musica</h4>
+    </footer>
+
+</body>
+</html>
